@@ -3,7 +3,6 @@ package dev.majidhajric.adapter.in.web.controller;
 import dev.majidhajric.adapter.in.web.dto.PetDTO;
 import dev.majidhajric.core.port.in.PetQuery;
 import dev.majidhajric.core.service.PetService;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

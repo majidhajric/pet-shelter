@@ -14,9 +14,10 @@ import java.util.UUID;
 @Component
 public class InMemoryPetRepository implements PetRepository {
 
-    private final List<Pet> pets= Collections.synchronizedList(List.of(
+    private final List<Pet> pets = Collections.synchronizedList(List.of(
             new Pet(UUID.randomUUID(), "Dođi", "German Shepherd", PetGender.MALE, LocalDate.of(2019, 1, 1), "Black")
     ));
+
     @Override
     public Collection<Pet> findAll() {
         return pets;
