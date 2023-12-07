@@ -1,0 +1,15 @@
+server:
+    port: 8080
+
+spring:
+    application:
+        name: pet-shelter
+    datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+logging:
+    level: info
+    dev.majidhajric: debug
