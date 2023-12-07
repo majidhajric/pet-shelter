@@ -11,5 +11,6 @@ spring:
     driver-class-name: org.postgresql.Driver
 
 logging:
-    level: info
-    dev.majidhajric: debug
+    level:
+        root: info
+        dev.majidhajric: debug
